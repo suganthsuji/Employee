@@ -53,4 +53,35 @@ public class SimplePoint {
 
     }
 
+//    public void wageMonth(){
+//        int workingDays=0;
+//        double totalWage =0;
+//        int workingHours=0;
+//        //System.out.println("Wages for a Month is "+(workingDays*wagePerHour));
+//        while(true){
+//            double a= empAttendence();
+//            switch ((int)a){
+//                case 0:
+//                    System.out.println("employee is absent");
+//                    break;
+//                case 1:
+//                    workingDays++;
+//                    workingHours +=8;
+//                    break;
+//                case 2:
+//                    workingDays++;
+//                    workingHours +=4;
+//                    break;
+//            }
+//
+//            if(workingDays>=20 || workingHours>=100){
+//                break;
+//            }
+//            totalWage=workingHours*20;
+//
+//        }
+//        System.out.println("total wage "+totalWage);
+//
+//    }
+
 }

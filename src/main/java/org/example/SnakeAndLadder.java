@@ -11,6 +11,8 @@ public class SnakeAndLadder {
    public static void main (String[] args)
     {
         int i = (int)(Math.floor((Math.random()+0.5)));
+//        count[0] = 0;
+//        count[1] = 0;
         System.out.println("PLAYER "+ i+" STARTS THE GAME");
         dieroll(i);
         System.out.println("NO OF TIMES DICE ROLLED IS " + roll);
@@ -21,7 +23,7 @@ public class SnakeAndLadder {
     public static void dieroll(int i)
     {
         System.out.println("PLAYER " + i + " IS PLAYING");
-//        count[0] = (i==0) ? (count[0]++) : count[0];
+//       count[0] = (i==0) ? (count[0]++) : count[0];
 //        count[1] = (i==1) ? (count[1]++) : count[1];
         int a = (i==0) ? 1:0;
         Double dienumber=Math.floor((Math.random()*6)+1);
